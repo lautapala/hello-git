@@ -43,5 +43,16 @@ https://ohmyz.sh/
 	$ git add <file>
 	$ git commit
 	$ git commit -m "Esto es el primer commit"
-
+	$ git log
+	$ git checkout <file> --> retrotrae a ultimo commit
+	$ git log --graph 
+	$ git log --graph --pretty=oneline
+	$ git log --graph --oneline --decorate --all
+	ALIAS:
+	$ git config --global alias.tree "log --graph --oneline --decorate --all"
+	$ touch .gitgnore --> llenarlo con **/."<filenames a ignorar>"
+	$ git add <file>
+	$ git add <filename> + git rm <filename> + git commit --> rename file
+	$ git diff --> diferencias desde ultimo commit
+	
 SEGUIR: https://youtu.be/3GymExBkKjE?t=3210
