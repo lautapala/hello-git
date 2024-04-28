@@ -1,0 +1,67 @@
+chenliang chino de Virginia director de operaciones
+Nick Yang CTO
+
+hackerrank.com? -> abrir cuenta
+todo es aurora
+manejo de github + bash
+redshift y mysql alguito...
+slack todo el rato
+10 clusters PROD, 10 QA, 10DEV
+3Tb en PROD de PG12
+green blue deployment para  migra pero cambia el nombre entonces in place.
+usan liquibase para automatizacion  + sqllish...
+
+empresa de 5 años top50 mex.
+2M clientes
+
+
+
+CURSO GIT:
+https://www.youtube.com/watch?v=3GymExBkKjE
+https://youtu.be/3GymExBkKjE?t=204
+
+
+discord: lauta.ar@gmail.com + Mafalda_1968
+	https://discord.gg/mouredev
+	
+	retosdeprogramacion.com
+	
+CURSO: CAP1 https://youtu.be/3GymExBkKjE?t=204
+	inicio GIT: https://git-scm.com/
+	Desde git bash ejecuto "code ." y abre VS
+	Instalo "WSL extension" to build Linux applications that run on the Windows Subsystem for Linux (WSL). 
+$ git config --global user.name "lauta"
+$ git config --global user.email "lauta@yahoo.com"	
+	
+	
+	$ git init --> crea repo en la carpeta activa
+	$ git branch -m main (o principal (ó era: $ git config --global init.defaultBranch principal ? )	
+	
+https://ohmyz.sh/
+
+	$ git status
+	$ git add <file>
+	$ git commit
+	$ git commit -m "Esto es el primer commit"
+	$ git log
+	$ git checkout <file> --> retrotrae a ultimo commit
+	$ git log --graph 
+	$ git log --graph --pretty=oneline
+	$ git log --graph --oneline --decorate --all
+	ALIAS:
+	$ git config --global alias.tree "log --graph --oneline --decorate --all"
+	$ touch .gitgnore --> llenarlo con **/."<filenames a ignorar>"
+	$ git add <file>
+	$ git add <filename> + git rm <filename> + git commit --> rename file
+	$ git diff --> diferencias desde ultimo commit
+	$ git checkout "<ID>" --> levanta esa version, quita lo agregado, lo editado... vuelve a la foto
+	$ git checkuot HEAD --> pone señalador
+	$ git reset --hard <ID> --> resetea
+	$ git reflog --> guarda lo borrado aun por el "hard"
+	$ git reset --hard "<ID>" --> avanza aún hacia lo ya borrado por un hard anterior
+	$ git tag <texto>
+	$ git add . --> Agrega TODO
+	$ git checkout tags/<texto>  --> moverse entre tags/
+	
+	
+SEGUIR: https://youtu.be/3GymExBkKjE?t=3210
