@@ -54,14 +54,7 @@ https://ohmyz.sh/
 	$ git add <file>
 	$ git add <filename> + git rm <filename> + git commit --> rename file
 	$ git diff --> diferencias desde ultimo commit
-	$ git checkout "<ID>" --> levanta esa version, quita lo agregado, lo editado... vuelve a la foto
-	$ git checkuot HEAD --> pone señalador
-	$ git reset --hard <ID> --> resetea
-	$ git reflog --> guarda lo borrado aun por el "hard"
-	$ git reset --hard "<ID>" --> avanza aún hacia lo ya borrado por un hard anterior
-	$ git tag <texto>
-	$ git add . --> Agrega TODO
-	$ git checkout tags/<texto>  --> moverse entre tags/
+	$ git checkout "<ID>" --> levanta esa version
 	
 	
 SEGUIR: https://youtu.be/3GymExBkKjE?t=3210
